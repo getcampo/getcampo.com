@@ -1,0 +1,8 @@
+theme: jekyll-theme-cayman
+title: Campo
+description: will be back...
+exclude:
+  - Dockerfile
+  - docker-compose.yml
+  - Gemfile
+  - Gemfile.lock
