@@ -9,22 +9,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <style media="screen">
-      html, body, .page-header {
-        height: 100%;
-      }
-
-      .page-header {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-      }
-    </style>
   </head>
   <body>
     <section class="page-header">
-      <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
-      <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+      <h1 class="project-name">Campo</h1>
+      <h2 class="project-tagline">A lightweight web forum</h2>
+      <a href="https://github.com/getcampo/campo" class="btn">View on GitHub</a>
+      <a href="https://community.getcampo.com" class="btn">Community</a>
     </section>
+    <main id="content" class="main-content">
+      <h2>Installation</h2>
+      <p>
+        If you are familiar with Heroku, visit <a href="https://github.com/getcampo/campo-heroku">Heroku deployment</a>.
+      </p>
+      <p>
+        If you are familiar with Docker Swarm, visit <a href="https://github.com/getcampo/campo-docker-swarm">Docker Swarm deployment</a>.
+      </p>
+    </main>
   </body>
 </html>
